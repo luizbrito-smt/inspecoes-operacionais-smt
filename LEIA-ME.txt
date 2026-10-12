@@ -1,0 +1,21 @@
+ATUALIZAR O GITHUB PAGES — INSPEÇÕES OPERACIONAIS SMT
+
+1. Extraia este ZIP no computador.
+2. Abra https://github.com/luizbrito-smt/inspecoes-operacionais-smt
+3. Na pasta publicada pelo GitHub Pages, clique Add file > Upload files.
+4. Envie index.html, manifest.webmanifest, pwa.js, sw.js, offline.html e a pasta icons.
+   Os arquivos precisam ficar juntos, na mesma pasta do index.html. Não envie apenas o ZIP.
+5. Confirme em Commit changes e aguarde a implantação do GitHub Pages.
+6. Abra https://luizbrito-smt.github.io/inspecoes-operacionais-smt/ no navegador do celular.
+7. Android: toque Instalar aplicativo ou Chrome > menu ⋮ > Instalar aplicativo.
+8. iPhone: abra no Safari > Compartilhar > Adicionar à Tela de Início > Adicionar.
+
+Firebase Authentication, Cloud Firestore, coleção inspecoes e Cloudinary foram mantidos como no original. Use os usuários já cadastrados. Nenhum registro foi alterado durante a preparação.
+
+O login e os registros precisam de internet. A PWA mostra uma tela de reconexão quando aberta sem rede. Não cria uma base offline paralela.
+
+Se usar a cópia no domínio chatgpt.site e ocorrer auth/unauthorized-domain, adicione o domínio exato em Firebase Console > Authentication > Settings > Authorized domains. Se a chave de API tiver restrição por site, revise também os referenciadores autorizados no Google Cloud. Não reduza as regras de segurança do Firestore.
+
+A publicação aqui não atualiza automaticamente o repositório GitHub. Para manter o endereço GitHub original, envie estes arquivos conforme os passos acima.
+
+ÍCONE ATUALIZADO: imagem FS com fundo verde enviada pelo usuário. Se o ícone antigo persistir no celular, remova o atalho/app e instale novamente pelo navegador.
